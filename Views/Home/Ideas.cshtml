@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Ideas";
+}
+
+<p class="text-right">
+    <a class="btn btn-primary" href="/logout">Logout</a>
+</p>
+
+<h4>Hello, @ViewBag.user.alias</h4><br>
+
+<div class="container">
+    <form action="create" method="post">
+        <div class="row">
+            
+            <textarea name="content" cols="60" rows="2" placeholder="Post something witty here.."></textarea>
+        
+            <input type="submit" value="Idea!" name="submit">
+
+        </div>
+    </form>
+
+    @foreach (var v in ViewBag.ideas)
+    {
+        <div class="card text-white bg-danger mb-3">
+            <p><a href="/show/@v.creator.userId">@v.creator.alias</a> says: @v.content</p>
+            @if(v.creator.userId == ViewBag.user.userId){            
+                <a href="/delete/@v.postId">Delete</a>  
+                
+            } else if (v.currentUser) {
+                <a class="text-danger" href="#">Liked</a>
+            } else {
+                <a href="/like/@v.postId">Like</a>
+            }
+            <a href="/idea/@v.postId">@v.likes.Count people like this </a>
+        </div>
+        <br>
+    } 
+    
+</div>

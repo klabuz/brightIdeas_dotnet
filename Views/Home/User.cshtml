@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "User Page";
+}
+
+<p class="text-right">
+    <a class="btn btn-primary" href="/ideas">Ideas</a>
+    <a class="btn btn-primary" href="/logout">Logout</a>
+</p>
+
+<h1>Name: @ViewBag.ThisUser.name</h1>
+<h2>Alias: @ViewBag.ThisUser.alias</h2>
+<h2>Email: @ViewBag.ThisUser.email</h2>
+
+<hr>
+
+<p>Total Number of Posts: @ViewBag.ThisUser.created.Count</p>
+<p>Total Number of Likes: @ViewBag.ThisUser.liked.Count</p>

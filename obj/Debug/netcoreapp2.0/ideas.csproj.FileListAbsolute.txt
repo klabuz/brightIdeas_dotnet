@@ -1,0 +1,10 @@
+/Users/konrad.labuz/Documents/CodingDojo/C#/#asp_dotnet/ideas/bin/Debug/netcoreapp2.0/ideas.deps.json
+/Users/konrad.labuz/Documents/CodingDojo/C#/#asp_dotnet/ideas/bin/Debug/netcoreapp2.0/ideas.runtimeconfig.json
+/Users/konrad.labuz/Documents/CodingDojo/C#/#asp_dotnet/ideas/bin/Debug/netcoreapp2.0/ideas.runtimeconfig.dev.json
+/Users/konrad.labuz/Documents/CodingDojo/C#/#asp_dotnet/ideas/bin/Debug/netcoreapp2.0/ideas.dll
+/Users/konrad.labuz/Documents/CodingDojo/C#/#asp_dotnet/ideas/bin/Debug/netcoreapp2.0/ideas.pdb
+/Users/konrad.labuz/Documents/CodingDojo/C#/#asp_dotnet/ideas/obj/Debug/netcoreapp2.0/ideas.csproj.CoreCompileInputs.cache
+/Users/konrad.labuz/Documents/CodingDojo/C#/#asp_dotnet/ideas/obj/Debug/netcoreapp2.0/ideas.AssemblyInfoInputs.cache
+/Users/konrad.labuz/Documents/CodingDojo/C#/#asp_dotnet/ideas/obj/Debug/netcoreapp2.0/ideas.AssemblyInfo.cs
+/Users/konrad.labuz/Documents/CodingDojo/C#/#asp_dotnet/ideas/obj/Debug/netcoreapp2.0/ideas.dll
+/Users/konrad.labuz/Documents/CodingDojo/C#/#asp_dotnet/ideas/obj/Debug/netcoreapp2.0/ideas.pdb
